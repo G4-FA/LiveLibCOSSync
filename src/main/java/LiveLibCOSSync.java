@@ -32,7 +32,7 @@ public class LiveLibCOSSync {
 
     	try {
     		
-	        COSCredentials cred = new BasicCOSCredentials("AKIDOsBKI5N5IJBvTtMEEBxa3OceXFtPR03u", "1sLhw20oTityx8D7pTwEbv5683nMl9MZ");
+	        COSCredentials cred = new BasicCOSCredentials("AKID8Abx87oxfpwAPpyWWP6bv41ubO2X6l8J", "jLl03uZDvShx2xgEesuvwwkQm273oNku");
 	        ClientConfig clientConfig = new ClientConfig(new Region("ap-chengdu"));
 	        COSClient cosclient = new COSClient(cred, clientConfig);
 	
