@@ -1,9 +1,8 @@
-	import java.util.List;
-	import com.qcloud.cos.COSClient;
-	import com.qcloud.cos.ClientConfig;
-	import com.qcloud.cos.auth.BasicCOSCredentials;
-	import com.qcloud.cos.auth.COSCredentials;
-import com.qcloud.cos.exception.CosClientException;
+import java.util.List;
+import com.qcloud.cos.COSClient;
+import com.qcloud.cos.ClientConfig;
+import com.qcloud.cos.auth.BasicCOSCredentials;
+import com.qcloud.cos.auth.COSCredentials;
 import com.qcloud.cos.region.Region;
 
 class tObjectInfo
@@ -24,7 +23,7 @@ class tObjectInfo
 public class LiveLibCOSSync {
 	
 	public static String RootDir = "LiveLib/";
-	public static String PC_ROOT_DIR = "G:/_WS/ADEV/eclipse-workspace/LiveLibCOSSync/LiveLib/";
+	public static String PC_ROOT_DIR = "W:/_WS/ADEV/eclipse-workspace/LiveLibCOSSync/LiveLib/";
 	public static String bucketName = "g4-livelib-cos-1257773597";
 	public static int MAX_UPLOAD_COUNT = 100;
 
